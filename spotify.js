@@ -17,6 +17,7 @@
                 limit: 20
             },
             success: function(data) {
+                console.log(data);
                 if(type=="artist") {
                     if (data.artists.items.length===0) {
                         $("#results-for").text("No results");

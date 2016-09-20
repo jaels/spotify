@@ -1,0 +1,131 @@
+body {
+    background-color: #E9967A;
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+}
+
+#header {
+    position: relative;
+    top: 30px;
+}
+
+#search-area {
+width: 280px;
+position: relative;
+left:38%;
+top: 28px;
+display: inline-block;
+}
+
+#typing-field {
+    border: 1px solid black;
+    font-size: 14px;
+    height: 18px;
+    width: 230px;
+}
+
+
+#go-button {
+float: right;
+position: relative;
+left: 20px;
+bottom: 20px;
+background-color: #D3D3D3;
+border-radius: 20px 20px 20px 20px;
+color: black;
+height: 18px;
+width: 50px;
+text-align: center;
+display: inline-block;
+border: 1px solid black;
+cursor: pointer;
+}
+
+
+#go-text {
+position: relative;
+bottom: 12px;
+font-size: 14px;
+}
+
+
+
+
+
+.results {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    margin-bottom: 150px;
+}
+
+.result {
+margin-top:40px;
+width: 300px;
+height: 200px;
+padding-left: 30px;
+text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.images {
+    float:left;
+    height:200px;
+    width:200px;
+}
+
+#results-for {
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+text-align: center;
+}
+
+.more-button {
+    top-padding: 5px;
+    margin-left: 300px;
+    position: relative;
+    left: 20%;
+    bottom: 20px;
+    background-color: #D3D3D3;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    display: none;
+
+}
+
+h4 {
+    position:relative;
+    bottom: 15px;
+}
+
+
+.name {
+    font-size: 30px;
+}
+
+.poster {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    float: right;
+    left: 400px;
+    bottom: 230px;
+}
