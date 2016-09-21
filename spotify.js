@@ -1,4 +1,3 @@
-
 (function () {
 
     $('#go-button').on('click',search);

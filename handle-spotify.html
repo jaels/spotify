@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="handle-spotify.css">
+    <title>Handle Spotify</title>
+
+</head>
+
+<body>
+
+
+
+
+
+    <div id="header">
+        <h1>Spotify Search</h1>
+    </div>
+    <div id="search-area">
+        <input id="typing-field"></input>
+
+        <select id="options">
+            <option value="artist">Artist</option>
+            <option value="album">Album</option>
+        </select>
+
+
+        <div id="go-button">
+            <p id="go-text">Go</p>
+        </div>
+    </div>
+    <div id="results-for"></div>
+
+    <div id=results>
+        <script id="resultsScript" type="text/handlebars">
+        {{#newArr}}
+        <div class="result">
+
+        <a  class="result" href= {{link}}>{{name}}</a>
+        <img class="images" src={{image}}>
+
+        </div>
+
+
+        {{/newArr}}
+        </script>
+
+    </div>
+
+</div>
+
+<div class="more-button">
+    <h4>More</h4>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+<script src="handle-spotify.js"></script>
+
+</body>
+
+</html>
